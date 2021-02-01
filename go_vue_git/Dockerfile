@@ -29,3 +29,6 @@ RUN	apt-get update && \
 # git install
 RUN apt update && \
 	apt install -y git;
+
+# java install
+RUN apt install openjdk-11-jdk;
